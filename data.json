@@ -1,0 +1,259 @@
+{
+  "name": "MUHAMMAD ROSHDY",
+  "signature": "Muhammad Roshdy",
+  "photo": {
+    "src": "assets/img/profile-placeholder.png",
+    "alt": "Muhammad Roshdy"
+  },
+  "socials": [
+    {
+      "label": "GH",
+      "href": "https://github.com/muroshdy"
+    },
+    {
+      "label": "IN",
+      "href": "https://www.linkedin.com/in/muroshdy/"
+    },
+    {
+      "label": "@",
+      "href": "mailto:muroshdy@outlook.com"
+    }
+  ],
+  "profile": {
+    "title": "Electronic & Computer Engineering Student | Dublin City University",
+    "description": "Passionate about embedded systems, circuit design, and intelligent software that bridges hardware and code."
+  },
+  "projects": [
+    {
+      "tag": "C++ Game",
+      "title": "Buy My Car – Negotiation Simulator",
+      "description": "A text-based simulation game where players negotiate car prices with sellers of different moods. Demonstrates object-oriented programming principles like inheritance, polymorphism, and encapsulation. Includes dynamic pricing, scoring, and ASCII art character displays.",
+      "link": "#"
+    },
+    {
+      "tag": "C/C++",
+      "title": "Golfie – 2D Golf Simulation",
+      "description": "A 2D golf game using DCU's GeoDraw graphics library. Implements animated ball motion, obstacles, and physics-based scoring. Demonstrates creative graphics programming and animation.",
+      "link": "#"
+    },
+    {
+      "tag": "Python",
+      "title": "Sudoku Solver/Generator",
+      "description": "A Python-based Sudoku solver and generator with console or Tkinter GUI. Uses a backtracking algorithm and text file input/output. Extends the mini-project from Python & Numerical Methods coursework.",
+      "link": "#"
+    },
+    {
+      "tag": "Systems (C)",
+      "title": "File Size Aggregator",
+      "description": "Developed a C program that calculates total file size in a directory using Unix system calls and inter-process communication. Implemented process creation (fork()), redirection (dup2()), and command execution (execlp()), passing data between processes with pipes.",
+      "link": "#"
+    },
+    {
+      "tag": "Systems (C)",
+      "title": "Shared Memory Chat Application",
+      "description": "Implemented a multi-process chat app using shared memory (shmget(), shmat(), shmdt()) for real-time communication. Showed how shared memory enables fast bidirectional data exchange and process synchronisation.",
+      "link": "#"
+    },
+    {
+      "tag": "Networks",
+      "title": "Network Theory Simulator Core (MNA)",
+      "description": "Developed the foundational circuit modelling component for a prototype simulator using Modified Nodal Analysis (MNA). Built conductance, source, and connection matrices in Python and verified results against analytical solutions using NumPy. Explored automatic matrix generation for user-defined circuits, forming the groundwork for AC and transient simulations.",
+      "link": "#"
+    },
+    {
+      "tag": "Collab w/ AI",
+      "title": "QUARTO in Python (EM108)",
+      "description": "Worked in pairs to design and implement the board game QUARTO in Python, using ChatGPT as a collaborative assistant for planning, design, and testing. The goal was to critically evaluate human–AI collaboration rather than automate coding. The project highlighted the strengths of AI tools in pseudocode generation, debugging, and verification.",
+      "link": "#"
+    },
+    {
+      "tag": "Hardware & Embedded",
+      "title": "Binary Arithmetic Mini-Computer",
+      "description": "Designed and built a logic-based computer using JK flip-flops and multiplexers to perform binary arithmetic operations. Verified functionality via timing and truth-table analysis.",
+      "link": "#"
+    },
+    {
+      "tag": "Hardware & Embedded",
+      "title": "2D Message Scrolling Display",
+      "description": "Created an LED matrix text display system with smooth scrolling animation and flicker reduction using microcontroller programming and driver ICs.",
+      "link": "#"
+    },
+    {
+      "tag": "Hardware & Embedded",
+      "title": "AVG Car (Sensor-Guided Vehicle)",
+      "description": "Team project building an IR sensor–controlled car with steering control and chassis integration for autonomous navigation.",
+      "link": "#"
+    },
+    {
+      "tag": "Software & Simulations",
+      "title": "Convex Hull Visualizer (C++)",
+      "description": "Built an interactive computational-geometry visualizer implementing an O(n log n) convex hull algorithm with graphical representation of the algorithm's steps.",
+      "link": "#"
+    }
+  ],
+  "labs": [
+    {
+      "category": "Digital & Analogue 1",
+      "tag": "Digital & Analogue 1",
+      "title": "Digital Introduction",
+      "description": "This laboratory introduced the fundamental concepts of digital logic, including logic levels, Boolean algebra, truth tables, and basic logic-gate operation. Using IC gates, switches, LEDs, and resistors on a breadboard, I built and tested simple AND, OR, NOT, NAND, and NOR circuits to verify their truth tables. The experiment demonstrated how binary inputs translate into deterministic digital outputs and how combinations of gates can realise any Boolean expression.",
+      "link": "#"
+    },
+    {
+      "category": "Digital & Analogue 1",
+      "tag": "Digital & Analogue 1",
+      "title": "Diodes & Adders",
+      "description": "The second experiment focused on semiconductor diode behaviour and its use in basic analogue and digital circuits. The setup included silicon diodes, LEDs, a Zener diode, resistors, and a regulated DC power supply. Forward- and reverse-bias characteristics were recorded to determine the diode's threshold voltage and current limiting. I also constructed half- and full-wave rectifiers and a diode-based half adder to observe logic-level voltage summation.",
+      "link": "#"
+    },
+    {
+      "category": "Digital & Analogue 1", 
+      "tag": "Digital & Analogue 1",
+      "title": "Transistor Analysis",
+      "description": "In this experiment an NPN transistor was investigated as both a switch and a small-signal amplifier. Using resistors, a biasing network, and measurement instruments, I plotted the transistor's input and output characteristics and assembled a common-emitter amplifier circuit. The voltage gain and input/output relationships were measured to verify the effect of collector resistance and base bias.",
+      "link": "#"
+    },
+    {
+      "category": "Digital & Analogue 1",
+      "tag": "Digital & Analogue 1", 
+      "title": "Counters & Sequential Logic",
+      "description": "The fourth lab introduced sequential digital circuits, focusing on latches, flip-flops, and counter design. Integrated circuits such as S-R and J-K flip-flops and a BCD counter were wired on a breadboard with LEDs used to display state changes. Clock pulses were generated to observe state transitions and verify truth-table behaviour.",
+      "link": "#"
+    },
+    {
+      "category": "Digital & Analogue 1",
+      "tag": "Digital & Analogue 1",
+      "title": "Arduino Reaction Game",
+      "description": "In the final laboratory an interactive reaction-time game was implemented using an Arduino Uno, LED, push button, resistors, and a piezo buzzer. The program randomly illuminated the LED, requiring the player to press the button within a short time window; failure triggered the buzzer to indicate a loss.",
+      "link": "#"
+    },
+    {
+      "category": "Digital & Analogue 2",
+      "tag": "Digital & Analogue 2",
+      "title": "BJT as Amplifier",
+      "description": "This experiment investigated the operation of the 2N2219 NPN transistor as a common-emitter amplifier. Using a Loctronic training kit, I constructed the circuit, determined the quiescent point, and plotted the DC load line. By measuring the input and output waveforms, I examined the effects of bypass and coupling capacitors on signal gain and frequency response.",
+      "link": "#"
+    },
+    {
+      "category": "Digital & Analogue 2",
+      "tag": "Digital & Analogue 2",
+      "title": "Arithmetic Circuits",
+      "description": "In this lab, I designed and implemented a 4-bit adder/subtractor and extended it to form a simple arithmetic logic unit (ALU). Using integrated circuits such as the 7483 full adder, 7486 XOR, 7400 NAND, and 74157 multiplexer, I built a system capable of performing addition, subtraction, and logical operations.",
+      "link": "#"
+    },
+    {
+      "category": "Digital & Analogue 2",
+      "tag": "Digital & Analogue 2",
+      "title": "Memory Circuits",
+      "description": "This experiment explored the fundamentals of digital memory design using bistable latches. I constructed and tested a one-word 4-bit memory using the 7475 quad latch, then extended the design into a 2-word RAM system using address decoding with the 7402 NOR and 74157 multiplexer ICs.",
+      "link": "#"
+    },
+    {
+      "category": "Digital & Analogue 2", 
+      "tag": "Digital & Analogue 2",
+      "title": "Arduino & I/O Systems",
+      "description": "In this experiment, I used an Arduino Uno microcontroller to control 8×8 dot-matrix displays, demonstrating digital interfacing and communication via the SPI bus. Initially, I programmed the Arduino to display static and flashing characters, then extended the design to show scrolling text across two cascaded displays using MAX7219 driver ICs.",
+      "link": "#"
+    },
+    {
+      "category": "Digital & Analogue 2",
+      "tag": "Digital & Analogue 2",
+      "title": "Sequential Circuits (PLD)",
+      "description": "The final experiment introduced programmable logic device (PLD) design using the Atmel 16V8B device and WinCUPL software. I developed and programmed Boolean equations to create a BCD-to-seven-segment display decoder and a BCD counter, which were then tested on the Kanda PLD trainer board.",
+      "link": "#"
+    },
+    {
+      "category": "Embedded Systems 1",
+      "tag": "Embedded Sys 1", 
+      "title": "Layered Network Architecture",
+      "description": "This laboratory introduced the OSI and TCP/IP models through hands-on experimentation using Wireshark. I learned how each protocol layer encapsulates data into frames, packets, and segments, and how messages travel through the network stack from source to destination.",
+      "link": "#"
+    },
+    {
+      "category": "Embedded Systems 1",
+      "tag": "Embedded Sys 1",
+      "title": "Data Link Layer",
+      "description": "In this experiment, I used Wireshark to study the operation of the data link layer and to understand Ethernet frame structure in detail. I captured live traffic while loading a webpage and identified the source and destination MAC addresses, EtherType values, and payload size.",
+      "link": "#"
+    },
+    {
+      "category": "Embedded Systems 1",
+      "tag": "Embedded Sys 1",
+      "title": "ARQ Protocols",
+      "description": "This lab focused on error control and retransmission mechanisms at the data link layer using a Java-based ARQ simulator. I simulated Stop-and-Wait (SAW), Go-Back-N (GBN), and Selective Repeat (SR) protocols under varying delay, error, and packet drop probabilities.",
+      "link": "#"
+    },
+    {
+      "category": "Embedded Systems 1", 
+      "tag": "Embedded Sys 1",
+      "title": "IP & ARP Analysis",
+      "description": "In this experiment, I analysed Internet Protocol (IP) and Address Resolution Protocol (ARP) operations using Wireshark packet traces. By inspecting individual IP packets, I identified protocol types, header lengths, fragmentation flags, and data sizes.",
+      "link": "#"
+    },
+    {
+      "category": "Electromechanical Systems",
+      "tag": "EEN1029",
+      "title": "Inductors & Transformers",
+      "description": "In this lab, I wound and tested a 30-turn inductor and later converted it into a 60-turn transformer. Using AC measurements and Scopy, I analysed how frequency and core material affect inductance, reactance, and power factor.",
+      "link": "#"
+    },
+    {
+      "category": "Electromechanical Systems",
+      "tag": "EEN1029", 
+      "title": "DC & Stepper Motor Control",
+      "description": "The second lab focused on controlling brushed DC and stepper motors using an ESP32 microcontroller and H-bridge driver. I designed and coded control algorithms to drive the motors forward and reverse, and measured the efficiency of the brushed DC motor.",
+      "link": "#"
+    },
+    {
+      "category": "Python & Numerical Methods",
+      "tag": "EEN1027",
+      "title": "Intro to Python",
+      "description": "Learned Python fundamentals including data types, loops, functions, and file handling. Developed simple programs using NumPy and Matplotlib for data analysis and plotting. Final mini-projects included a password generator using ASCII and a Sudoku solver.",
+      "link": "#"
+    },
+    {
+      "category": "Python & Numerical Methods",
+      "tag": "EEN1027",
+      "title": "Iterative Techniques",
+      "description": "Implemented the Jacobi Iteration Method for solving systems of linear equations. Explored matrix decomposition and convergence conditions for strictly diagonally dominant matrices. Validated solutions using NumPy's exact solver.",
+      "link": "#"
+    },
+    {
+      "category": "Python & Numerical Methods",
+      "tag": "EEN1027",
+      "title": "Numerical Differentiation", 
+      "description": "Used numerical differentiation to calculate velocity and acceleration of a falling sliotar (GAA ball) from Croke Park's 44 m skyline. Compared forward and central difference methods to analytical results and visualised data using subplots.",
+      "link": "#"
+    },
+    {
+      "category": "Python & Numerical Methods",
+      "tag": "EEN1027",
+      "title": "Root Finding",
+      "description": "Implemented two root-finding algorithms — Bisection and Secant Methods — and compared convergence speed and failure cases. Created a reusable Python module een1027.py containing root-finding functions.",
+      "link": "#"
+    },
+    {
+      "category": "Python & Numerical Methods", 
+      "tag": "EEN1027",
+      "title": "Numerical Integration",
+      "description": "Applied Rectangular, Trapezoidal, and Simpson's Rules to approximate definite integrals. Compared numerical results with analytical solutions and verified error bounds.",
+      "link": "#"
+    }
+  ],
+  "experience": [
+    {
+      "role": "Peer Mentor",
+      "company": "Dublin City University", 
+      "period": "2024 — Present",
+      "location": "Dublin, Ireland",
+      "summary": "Guided first-year students in circuit analysis and C/C++; supported lab sessions and provided academic assistance to help students transition to university-level engineering coursework."
+    },
+    {
+  "role": "Warehouse Operative and engineering intern operative", 
+      "company": "Safa Food",
+      "period": "Sep 2024 — Apirl 2025",
+      "period": "may 2024 — jun 2025",
+      "location": "Dublin",
+      "summary": "Managed inventory and workflow in a fast-paced environment, developing strong organizational and time management skills while balancing work with academic commitments. Additionally, shadowed a mechanical engineer one day per week during the summer, gaining insight into professional engineering practices and project workflows."
+    }
+}

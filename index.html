@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Muhammad Roshdy - Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script defer src="assets/js/main.js"></script>
+</head>
+<body>
+  <aside class="sidebar">
+    <div class="brand">
+      <span class="brand-top">MUHAMMAD ROSHDY</span>
+    </div>
+    <nav class="nav">
+      <a class="nav-link active" href="#home"><span>Home</span></a>
+      <a class="nav-link" href="#projects"><span>Projects</span></a>
+      <a class="nav-link" href="#labs"><span>Labs</span></a>
+      <a class="nav-link" href="#experience"><span>Work&nbsp;Experience</span></a>
+      <a class="nav-link" href="#contact"><span>Contact</span></a>
+    </nav>
+    <div class="socials">
+      <a href="https://github.com/muroshdy" aria-label="GitHub" title="GitHub">GH</a>
+      <a href="https://www.linkedin.com/in/muroshdy/" aria-label="LinkedIn" title="LinkedIn">IN</a>
+      <a href="mailto:muroshdy@outlook.com" aria-label="Email" title="Email">@</a>
+    </div>
+    <footer class="footer">&copy; <span id="year"></span> Muhammad Roshdy</footer>
+  </aside>
+
+  <main class="content">
+    <!-- HOME -->
+    <section id="home" class="section home">
+      <div class="hero-card">
+        <div class="photo-wrap">
+          <div class="accent-bar left"></div>
+          <img src="assets/img/profile-placeholder.png" alt="Muhammad Roshdy" class="photo" />
+          <div class="accent-bar right"></div>
+        </div>
+        <div class="intro">
+          <h1 class="title">ELECTRONIC & COMPUTER<br>ENGINEERING STUDENT</h1>
+          <p class="subtitle">
+            <strong id="fullname">MUHAMMAD ROSHDY</strong> — 
+            Electronic & Computer Engineering Student | Dublin City University
+          </p>
+          <p class="profile-description">Passionate about embedded systems, circuit design, and intelligent software that bridges hardware and code.</p>
+          <p class="signature">Muhammad Roshdy</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+      <h2>Projects</h2>
+      <div class="grid" id="projects-grid">
+        <!-- JS will populate cards from data.json -->
+      </div>
+    </section>
+
+    <!-- LABS -->
+    <section id="labs" class="section alt">
+      <h2>Labs</h2>
+      <div class="grid" id="labs-grid">
+        <!-- JS will populate cards from data.json -->
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="section">
+      <h2>Work Experience</h2>
+      <div id="experience-list">
+        <!-- JS will populate timeline from data.json -->
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section alt">
+      <h2>Contact</h2>
+      <form class="contact-form" id="contactForm" action="mailto:muroshdy@outlook.com" method="post" enctype="text/plain">
+        <div class="row">
+          <label>Name
+            <input type="text" name="name" required>
+          </label>
+          <label>Email
+            <input type="email" name="email" required>
+          </label>
+        </div>
+        <label>Message
+          <textarea name="message" rows="5" required></textarea>
+        </label>
+        <button type="submit">Send</button>
+      </form>
+      <p class="contact-note">Feel free to reach out for collaborations or opportunities!</p>
+    </section>
+  </main>
+</body>
+</html>
