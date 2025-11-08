@@ -242,18 +242,18 @@
   ],
   "experience": [
     {
-      "role": "Peer Mentor",
+      "role": "Senior Peer Mentor",
       "company": "Dublin City University", 
       "period": "2024 — Present",
       "location": "Dublin, Ireland",
       "summary": "Guided first-year students in circuit analysis and C/C++; supported lab sessions and provided academic assistance to help students transition to university-level engineering coursework."
     },
     {
-  "role": "Warehouse Operative and engineering intern operative", 
+      "role": "Warehouse Operative and engineering intern operative", 
       "company": "Safa Food",
-      "period": "Sep 2024 — Apirl 2025",
-      "period": "may 2024 — jun 2025",
+      "period": "May 2024 — Jun 2025",
       "location": "Dublin",
       "summary": "Managed inventory and workflow in a fast-paced environment, developing strong organizational and time management skills while balancing work with academic commitments. Additionally, shadowed a mechanical engineer one day per week during the summer, gaining insight into professional engineering practices and project workflows."
     }
+  ]
 }
